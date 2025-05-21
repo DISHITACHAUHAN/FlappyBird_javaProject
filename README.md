@@ -10,4 +10,5 @@ Project Name: FlappyBird
 <br>
 -> <b>Expected Result:<b>
 The game runs smoothly: the bird flies through pipes when the spacebar is pressed, the score increases, and the game resets after hitting an obstacle. It proves that the game works as planned and is fun and interactive.
+<br>
 <img width="854" alt="image" src="https://github.com/user-attachments/assets/b6a6a753-efa6-46aa-adf0-fc3b49e3718e" />
