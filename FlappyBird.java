@@ -8,6 +8,7 @@ import java.util.Random;
 // 1. Creating the new project with JDK & IDE setup
 // 2. Define the project structure (using inner classes below)
 
+
 public class FlappyBird extends JPanel implements ActionListener, KeyListener {
 
     // --- Game Constants ---
