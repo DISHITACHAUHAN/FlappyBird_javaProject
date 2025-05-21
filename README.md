@@ -1,19 +1,18 @@
 # 🐦Flappy Bird Java Game with MySQL Score Tracking
 <br>
-<br>
 <h3>✅ This project helps improve problem-solving and critical thinking by creating a simple game. It teaches how to handle game logic, collisions, and real-time events using code, encouraging logical thinking and creative solutions.</h3>
-<br>
 <H3>✅ A desktop version of the classic Flappy Bird game built using Java Swing. This project integrates a MySQL database to store and display high scores using JDBC.</H3>
 <br>
-<br>
-🎮 Features
+
+<H3>🎮 Features
+  <BR>
 ->  Smooth Flappy Bird gameplay with jumping, pipes, and collision detection.
 
 -> Game Over screen with current and high score display.
 
 -> Scores are saved in a MySQL database automatically after each game.
 
--> Responsive controls using the SPACE key to jump and restart.
+-> Responsive controls using the SPACE key to jump and restart.<H3>
 
 🧱 Tech Stack
 -> Java SE (Swing) – for GUI and game logic.
