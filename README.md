@@ -19,7 +19,9 @@
 <h4>📄 Main Code File </h4>
 <i>FlappyBirdGame.java</i>
 <br>
+<br>
 This is the main Java file that contains the entire game logic, UI (using Swing), and MySQL database integration. It includes:
+<br>
 <br>
 ->Bird and pipe rendering
 <br>
