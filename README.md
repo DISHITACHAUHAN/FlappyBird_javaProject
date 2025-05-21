@@ -60,5 +60,6 @@ CREATE TABLE scores (<BR>
 <H4>🏁 Credits</H4>
 -> Created as a Java project for demonstrating GUI design, database connectivity, and MVC principles in a single file.
 <BR>
-
-
+<H4>🎯 Expected Result:</H4>
+<BR>
+<B>The game runs smoothly: the bird flies through pipes when the spacebar is pressed, the score increases, and the game resets after hitting an obstacle. It proves that the game works as planned and is fun and interactive.
