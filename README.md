@@ -13,7 +13,7 @@
 
 -> Scores are saved in a MySQL database automatically after each game.
 
--> Responsive controls using the SPACE key to jump and restart.<H3>
+-> Responsive controls using the SPACE key to jump and restart.
 🧱 Tech Stack
 Java SE (Swing) – for GUI and game logic.
 
@@ -22,9 +22,7 @@ MySQL – for score storage.
 JDBC – for database connectivity.
 
 🗃️ Database Schema
-sql
-Copy
-Edit
+
 CREATE TABLE scores (
   id INT AUTO_INCREMENT PRIMARY KEY,
   score INT NOT NULL
@@ -39,7 +37,7 @@ Compile and run FlappyBirdGame.java in your IDE or terminal.
 Press SPACE to play and restart!
 
 📷 Screenshot
-(Add a screenshot of the game here)
+<img width="854" alt="image" src="https://github.com/user-attachments/assets/b6a6a753-efa6-46aa-adf0-fc3b49e3718e" />
 
 📁 Project Structure
 FlappyBirdGame – Main class for game UI and logic.
@@ -52,33 +50,4 @@ ScoreDAO – Handles database operations.
 Created as a Java project for demonstrating GUI design, database connectivity, and MVC principles in a single file.
 
 
-<BR>
-🧱 Tech Stack
-<BR>
--> Java SE (Swing) – for GUI and game logic.
 
--> MySQL – for score storage.
-
--> JDBC – for database connectivity.
-<BR>
-🗃️ Database Schema
-
-<BR>
-CREATE TABLE scores (<BR>
-  id INT AUTO_INCREMENT PRIMARY KEY,<BR>
-  score INT NOT NULL<BR>
-);
-<BR>
-🚀 How to Run
-<BR>
--> Ensure MySQL is running and create a database named flappybird.
-<BR>
--> Update DB credentials in the code (ScoreDAO class).
-<BR>
--> Compile and run FlappyBirdGame.java in your IDE or terminal.
-<BR>
--> Press SPACE to play and restart!
-<BR>
-📷 Screenshot
-<BR>
-<img width="854" alt="image" src="https://github.com/user-attachments/assets/b6a6a753-efa6-46aa-adf0-fc3b49e3718e" />
