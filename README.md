@@ -16,6 +16,7 @@
 -> Responsive controls using the SPACE key to jump and restart.
 <BR>
 🧱 Tech Stack
+<BR>
 -> Java SE (Swing) – for GUI and game logic.
 
 -> MySQL – for score storage.
@@ -29,6 +30,7 @@ CREATE TABLE scores (<BR>
   score INT NOT NULL<BR>
 );<BR>
 🚀 How to Run
+<BR>
 -> Ensure MySQL is running and create a database named flappybird.
 
 -> Update DB credentials in the code (ScoreDAO class).
@@ -43,14 +45,15 @@ CREATE TABLE scores (<BR>
 <BR>
 
 📁 Project Structure
+<BR>
 -> FlappyBirdGame – Main class for game UI and logic.
 
 -> Score – Model for score data.
 
 -> ScoreDAO – Handles database operations.
-
+<BR>
 🏁 Credits
 -> Created as a Java project for demonstrating GUI design, database connectivity, and MVC principles in a single file.
-
+<BR>
 
 
