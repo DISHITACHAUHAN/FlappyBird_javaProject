@@ -5,8 +5,8 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.Random;
 
-// ✅ 1. Creating the new project with JDK & IDE setup
-// ✅ 2. Define the project structure (using inner classes below)
+// 1. Creating the new project with JDK & IDE setup
+// 2. Define the project structure (using inner classes below)
 
 public class FlappyBird extends JPanel implements ActionListener, KeyListener {
 
@@ -60,10 +60,10 @@ public class FlappyBird extends JPanel implements ActionListener, KeyListener {
         gameLoop.start();
     }
 
-    // ✅ 3. Design the database schema
-    // ✅ 4. Create a MySQL table
-    // ✅ 5. Implement jdbc for database connectivity
-    // ✅ 6. Create Model, DAO classes for the database operations
+    //  3. Design the database schema
+    //  4. Create a MySQL table
+    //  5. Implement jdbc for database connectivity
+    //  6. Create Model, DAO classes for the database operations
 
     // --- Model ---
     static class Score {
@@ -141,7 +141,7 @@ public class FlappyBird extends JPanel implements ActionListener, KeyListener {
 
         g.setColor(Color.WHITE);
         g.setFont(new Font("Arial", Font.BOLD, 28));
-        // ✅ 7. Aesthetics and Visual Appeal of the UI
+        // 7. Aesthetics and Visual Appeal of the UI
         if (gameOver) {
             g.drawString("Game Over! Score: " + (int) score, 30, 50);
             g.drawString("High Score: " + scoreDAO.getHighScore(), 30, 90);
@@ -206,7 +206,7 @@ public class FlappyBird extends JPanel implements ActionListener, KeyListener {
         }
     }
 
-    // ✅ 9. Responsiveness and Accessibility of the UI
+    // 9. Responsiveness and Accessibility of the UI
     @Override
     public void keyPressed(KeyEvent e) {
         if (e.getKeyCode() == KeyEvent.VK_SPACE) {
@@ -240,7 +240,7 @@ public class FlappyBird extends JPanel implements ActionListener, KeyListener {
             frame.setResizable(false);
             frame.add(gamePanel);
             frame.pack();
-            frame.setLocationRelativeTo(null); // ✅ 8. Component Placement and Alignment in the UI
+            frame.setLocationRelativeTo(null); // 8. Component Placement and Alignment in the UI
             frame.setVisible(true);
         });
     }
