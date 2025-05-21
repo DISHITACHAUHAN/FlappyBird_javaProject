@@ -5,7 +5,7 @@
 ✅ A desktop version of the classic Flappy Bird game built using Java Swing. This project integrates a MySQL database to store and display high scores using JDBC.
 <br></H4>
 
-🎮 Features
+<H4>🎮 Features</H4>
 <BR>
 ->  Smooth Flappy Bird gameplay with jumping, pipes, and collision detection.
 
@@ -15,7 +15,8 @@
 
 -> Responsive controls using the SPACE key to jump and restart.
 <BR>
-🧱 Tech Stack
+<BR>
+<H4>🧱 Tech Stack</H4>
 <BR>
 -> Java SE (Swing) – for GUI and game logic.
 
@@ -23,13 +24,15 @@
 
 -> JDBC – for database connectivity.
 <BR>
-🗃️ Database Schema
+<BR>
+<H4>🗃️ Database Schema</H4>
 <BR>
 CREATE TABLE scores (<BR>
   id INT AUTO_INCREMENT PRIMARY KEY,<BR>
   score INT NOT NULL<BR>
 );<BR>
-🚀 How to Run
+<BR>
+<H4>🚀 How to Run</H4>
 <BR>
 -> Ensure MySQL is running and create a database named flappybird.
 
@@ -39,12 +42,13 @@ CREATE TABLE scores (<BR>
 
 -> Press SPACE to play and restart!
 <BR>
-📷 Screenshot
+<BR>
+<H4>📷 Screenshot</H4>
 <BR>
 <img width="854" alt="image" src="https://github.com/user-attachments/assets/b6a6a753-efa6-46aa-adf0-fc3b49e3718e" />
 <BR>
-
-📁 Project Structure
+<BR>
+<H4>📁 Project Structure </H4>
 <BR>
 -> FlappyBirdGame – Main class for game UI and logic.
 
@@ -52,7 +56,8 @@ CREATE TABLE scores (<BR>
 
 -> ScoreDAO – Handles database operations.
 <BR>
-🏁 Credits
+<BR>
+<H4>🏁 Credits</H4>
 -> Created as a Java project for demonstrating GUI design, database connectivity, and MVC principles in a single file.
 <BR>
 
