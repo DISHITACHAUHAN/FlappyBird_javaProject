@@ -8,15 +8,20 @@
 <H4>🎮 Features</H4>
 <BR>
 ->  Smooth Flappy Bird gameplay with jumping, pipes, and collision detection.
+<BR>
 -> Game Over screen with current and high score display.
+<BR>
 -> Scores are saved in a MySQL database automatically after each game.
+<BR>
 -> Responsive controls using the SPACE key to jump and restart.
 <BR>
 <BR>
 <H4>🧱 Tech Stack</H4>
 <BR>
 -> Java SE (Swing) – for GUI and game logic.
+<BR>
 -> MySQL – for score storage.
+<BR>
 -> JDBC – for database connectivity.
 <BR>
 <BR>
@@ -30,8 +35,11 @@ CREATE TABLE scores (<BR>
 <H4>🚀 How to Run</H4>
 <BR>
 -> Ensure MySQL is running and create a database named flappybird.
--> Update DB credentials in the code (ScoreDAO class).
+<BR>
+-> Update DB credentials in the code (ScoreDAO class).,
+<BR>
 -> Compile and run FlappyBirdGame.java in your IDE or terminal.
+<BR>
 -> Press SPACE to play and restart!
 <BR>
 <BR>
@@ -43,7 +51,9 @@ CREATE TABLE scores (<BR>
 <H4>📁 Project Structure </H4>
 <BR>
 -> FlappyBirdGame – Main class for game UI and logic.
+<BR>
 -> Score – Model for score data.
+<BR>
 -> ScoreDAO – Handles database operations.
 <BR>
 <BR>
