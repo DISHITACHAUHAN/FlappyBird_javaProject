@@ -16,6 +16,22 @@
 -> Responsive controls using the SPACE key to jump and restart.
 <BR>
 <BR>
+<h4>📄 Main Code File </h4>
+<i>FlappyBird.java</i>
+<br>
+<br>
+This is the main Java file that contains the entire game logic, UI (using Swing), and MySQL database integration. It includes:
+<br>
+->Bird and pipe rendering
+<br>
+-> Keyboard controls
+<br>
+-> Collision detection
+<br>
+-> Game loop and timer
+<br>
+-> Score saving and high score retrieval using JDBC
+<br>
 <H4>🧱 Tech Stack</H4>
 -> Java SE (Swing) – for GUI and game logic.
 <BR>
