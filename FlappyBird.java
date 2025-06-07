@@ -7,20 +7,15 @@ import java.util.ArrayList;
 import java.util.Random;
 
 public class FlappyBird extends JPanel implements ActionListener, KeyListener {
-
     // --- Game Constants ---
     int boardWidth = 360, boardHeight = 640;
-
     // --- Images ---
     Image backgroundImg, birdImg, topPipeImg, bottomPipeImg;
-
     // --- Bird ---
     int birdX = boardWidth / 8, birdY = boardHeight / 2;
     int birdWidth = 34, birdHeight = 24;
-
     // --- Pipe ---
     int pipeX = boardWidth, pipeY = 0, pipeWidth = 64, pipeHeight = 512;
-
     // --- Game Objects ---
     Bird bird;
     ArrayList<Pipe> pipes = new ArrayList<>();
