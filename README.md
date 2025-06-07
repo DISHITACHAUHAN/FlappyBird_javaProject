@@ -53,7 +53,7 @@ CREATE TABLE scores (<BR>
 <BR>
 -> Update DB credentials in the code (ScoreDAO class).,
 <BR>
--> Compile and run FlappyBirdGame.java in your IDE or terminal.
+-> Compile and run FlappyBirdGame.java in IDE or terminal.
 <BR>
 -> Press SPACE to play and restart!
 <BR>
